@@ -1,0 +1,48 @@
+.destination-map-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 22px;
+  border: 1px solid #e8e4f0;
+  box-shadow: 0 10px 35px rgba(103, 80, 164, 0.08);
+}
+
+.destination-map {
+  width: 100%;
+  height: 480px;
+  z-index: 1;
+}
+
+.map-popup {
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.map-popup img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.map-popup h3 {
+  margin: 10px 0 5px;
+  color: #252033;
+  font-size: 18px;
+}
+
+.map-popup p {
+  margin: 0 0 10px;
+  color: #777;
+}
+
+.map-popup span {
+  color: #6750a4;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 650px) {
+  .destination-map {
+    height: 350px;
+  }
+}
